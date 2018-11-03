@@ -1,6 +1,5 @@
-[
-  {
-    "title": "Stephanie’s Best Fondue",
+[{
+    "title": "Stephanie's Best Fondue",
     "author": "Stephanie Maciel",
     "image": "img/stephanies_best_fondue.jpg",
     "serves": 8,
@@ -85,7 +84,6 @@
     ],
     "tips": [],
     "tags": [
-      "Side Dish",
       "appetizers"
     ]
   },
@@ -129,11 +127,233 @@
       "When it boils, add 2 chopped green onions and 1 green chili pepper.",
       "Crack eggs and drizzle some sesame oil before serving."
     ],
-    "tips": [
-      ""
-    ],
+    "tips": [],
     "tags": [
-      ""
+      "entree"
+    ]
+  },
+  {
+    "title": "Spicy Korean Fried Chicken",
+    "author": "Dana Dirksen",
+    "image": "",
+    "serves": 4,
+    "prep_minutes": 20,
+    "ingredients": [
+      "6 chicken thighs cut into 2 inch pieces, or 10 chicken legs",
+      "½ tsp salt",
+      "½ tsp pepper",
+      "1 tsp ginger, minced",
+      "⅔ cup corn starch",
+      "4 garlic cloves, minced",
+      "2 tbsp sesame oil",
+      "1 tbsp red pepper flakes",
+      "¼ soy sauce",
+      "½ cup sugar",
+      "½ cup syrup",
+      "1 tbsp vinegar",
+      "1 tbsp brown sugar",
+      "1 tbsp hot mustard",
+      "1 tbsp sesame seeds"
+    ],
+    "steps": [
+      "Cut off the tip of each wing and chop the wing in half. After this is done you should have about 3 pounds of chicken, with 24 to 26 pieces.",
+      "Put the chicken in a bowl and mix with salt, ginger, and ground black pepper by hand.",
+      "Put 2/3 cup potato starch in a bowl and dip each wing in the powder to coat it, one by one. Squeeze each wing to press the coating to it tightly.",
+      "For the sauce: heat a large non-stick skillet or wok over medium high heat. Add 2 tablespoons cooking oil, minced garlic, and the dried red chili pepper.",
+      "Stir with a wooden spoon until fragrant for about 30 seconds.",
+      "Add soy sauce, rice syrup, vinegar, and mustard sauce (optional). Stir with a wooden spoon and let it bubble for a few minutes.",
+      "Add the brown sugar and continue stirring. Remove from the heat. Set aside.",
+      "Fry the chicken-Put 4 cups of cooking oil in a frying pan or pot and heat it up for 7 to 8 minutes over high heat.",
+      "See if the oil’s ready by dipping a test wing into it. If the oil bubbles, it’s hot enough to start frying. Slide the coated wings one by one into the hot oil and cook for about 12 to 13 minutes, turning over a few times with tongs.",
+      "Take the wings out of the oil and shake them off in a strainer. Turn off the heat, and let the wings sit for a few minutes.",
+      "Reheat the oil and fry the wings again for another 12 to 15 minutes until they all look golden brown and feel super crunchy through the tongs. If your frying pan or pot is not large enough to fry all the chicken at once, divide it into batches like I do in the video. If you use a larger frying pot to cook them all at once, you’ll have to use more cooking oil.",
+      "When the chicken is done, reheat the sauce until it bubbles.",
+      "Add the hot chicken and mix well with a wooden spoon to coat."
+    ],
+    "tips": [],
+    "tags": [
+      "entree"
+    ]
+  },
+  {
+    "title": "Asian Skewers",
+    "author": "Dana Dirksen",
+    "image": "",
+    "serves": 0,
+    "prep_minutes": 300,
+    "ingredients": [
+      "1 pound beef sirloin tip roast",
+      "1/3 cup reduced-sodium soy sauce",
+      "1/4 cup sugar",
+      "1/2 teaspoon ground ginger",
+      "1 cup water",
+      "4 medium carrots, julienned",
+      "1/2 pound fresh green beans, trimmed",
+      "1 large sweet red pepper, julienned",
+      "1/2 cup reduced-fat sour cream",
+      "2 tablespoon Dijon mustard",
+      "1-1/4 teaspoons prepared horseradish"
+    ],
+    "steps": [
+      "Cut beef widthwise into 16 slices, 1/4 in. thick. In a large resealable plastic bag, combine the soy sauce, sugar and ginger; add beef. Seal bag and turn to coat; refrigerate for 4 hours.",
+      "In a large saucepan, bring water and carrots to a boil. Reduce heat; cover and simmer for 3 minutes. Add the beans and red pepper; cover and simmer for 3-5 minutes or until vegetables are crisp-tender. Drain and immediately place vegetables in ice water. Drain and pat dry.",
+      "Drain and discard marinade from beef. Arrange three beans, one carrot strip and one pepper strip down the center of each beef slice; roll up. For each kabob use metal or soaked wooden skewers and thread two bundles on two parallel skewers.",
+      "If grilling the kabobs, coat grill rack with cooking spray before starting the grill. Grill kabobs, covered, over medium heat or broil 4-6 in. from the heat for 3-5 minutes on each side or until beef reaches desired doneness.",
+      "In a small bowl, combine the sour cream, mustard and horseradish. Serve with"
+
+    ],
+    "tips": [],
+    "tags": [
+      "entree"
+    ]
+  },
+  {
+    "title": "Kalbi BBQ Hawaiian Marinade",
+    "author": "Dana Dirksen",
+    "image": "",
+    "serves": 0,
+    "prep_minutes": 0,
+    "ingredients": [
+      "5 lbs thin cut tender short rib of beef, cross cut, about 1/2 inch thick (can substitute chuck steak)",
+      "2 cups soy sauce (I use 1/2 aloha brand and 1/2 yamasa brand.)",
+      "2 cups white sugar",
+      "4 garlic cloves (pressed or chopped fine)",
+      "1 inch ginger, grated",
+      "1 teaspoon toasted sesame oil",
+      "sliced green onion (optional)",
+      "sesame seed, toasted until they pop and turn light brown (optional)",
+      "1 little red pepper paste (optional) or red chile (optional)"
+    ],
+    "steps": [
+      "Place ribs in a glass dish or a Tupperware marinator. ",
+      "Mix all ingredients except for the optional ones in a pan and warm until the sugar melts, then cool.",
+      "Pour marinade over ribs, add optional ingredients if you like, and place in the refrigerator 4 hours or overnight, mixing up occasionally to make sure all ribs are covered with sauce",
+      "Grill or broil until sizzling, being careful not to burn because of the sugar. "
+    ],
+    "tips": [],
+    "tags": [
+      "entree"
+    ]
+  },
+  {
+    "title": "Chinese Spicy Chicken",
+    "author": "Dana Dirksen",
+    "image": "",
+    "serves": 0,
+    "prep_minutes": 0,
+    "ingredients": [
+      "1 chicken breast",
+      "3 tbs flour",
+      "1 egg yolk",
+      "1 tbs of water",
+      "1 tbs soy sauce",
+      "1 teaspoon of sugar",
+      "2 cloves of garlic",
+      "2 tbs soy sauce",
+      "1 tbs of rice cooking wine",
+      "2 hot chili peppers",
+      "scallion",
+      "pinch of salt and pepper"
+    ],
+    "steps": [
+      "Cut chicken breast into bite size chunk",
+      "marinade with egg yolk, flour , water, soy sauce for 15 minutes",
+      "deep fried until firm, and golden brown (but don't overcook)",
+      "sauté garlic and chili pepper with low heat until fragrant add sugar (to caramelize)",
+      "add soy sauce, the wok should be smoky at this moment,",
+      "when it's fragrant, salt & pepper, scallions, wine, add chicken, cook until the chicken absorbs all the juice, serve"
+    ],
+    "tips": [],
+    "tags": [
+      "entree"
+    ]
+  },
+  {
+    "title": "Clam Chowder",
+    "author": "Dana Dirksen",
+    "image": "",
+    "serves": 0,
+    "prep_minutes": 0,
+    "ingredients": [
+      "3 cans minced clams (6.5 oz)",
+      "1 cup minced onion",
+      "1 cup diced potatoes",
+      "¾ cup butter",
+      "2 cups milk, evaporated milk, or half and half",
+      "Dash of pepper",
+      "Dash of salt",
+      "1/3 cup bacon",
+      "¾ cup all purpose flour (add more for creamy texture)",
+      "1 Tsp olive oil?",
+      "A tsp red pepper flakes",
+      "Smoked cheddar cheese (for smoky flavor)",
+    ],
+    "steps": [],
+    "tips": [],
+    "tags": [
+      "entree"
+    ]
+  },
+  {
+    "title": "Oyster Stew",
+    "author": "Dana Dirksen",
+    "image": "",
+    "serves": 0,
+    "prep_minutes": 0,
+    "ingredients": [
+      "1 pint oysters",
+      "1 medium onion",
+      "2 stalks celery",
+      "3 tbsp. vegetable shorting",
+      "Sauce pan",
+      "1 quart milk",
+      "1 can cream of mushroom soup",
+      "1 tsp. salt",
+      "Large soup bowl",
+      "1/2 tsp. paprika",
+      "1 tsp. parsley"
+    ],
+    "steps": [
+      "Remove the oysters from their shells. Check each oyster for small shell pieces.",
+      "Chop the onion and celery into small cubes.",
+      "Melt vegetable shortening in a sauce pan over high heat.",
+      "Reduce the heat to medium. Add the oysters and their juices to the melted shortening. Stir the contents while adding the onion and celery.",
+      "Cook until the edges of the oysters began to curl up. This usually takes about 3 minutes.",
+      "Add the milk, salt and cream of mushroom soup to the oysters. Stir occasionally while continuing to cook over medium heat.",
+      "Bring the stew to a boil.",
+      "Remove from heat and pour into soup bowls.",
+      "Sprinkle parsley and paprika on the top."
+    ],
+    "tips": [],
+    "tags": [
+      "entree"
+    ]
+  },
+  {
+    "title": "Irish Potato Farls",
+    "author": "Dana Dirksen",
+    "image": "",
+    "serves": 0,
+    "prep_minutes": 0,
+    "ingredients": [
+      "1.25 lbs of Potatoes (4 potatoes)",
+      "2 Teaspoons of Melted Butter",
+      "1 Cup of Flour",
+      "Half Teaspoon of Salt",
+      "4 Teaspoons of Vegtable Oil"
+    ],
+    "steps": [
+      "Peel and half the potatoes and boil in water for 20 minutes  or so until soft.",
+      "Drain and then add the butter and mash thoroughly.",
+      "Add the flour and slat and mix",
+      "Divide the mixture in half and put the first half on a lightly floured surface",
+      "Knead until flat - approx .25 inch thick.",
+      "Divide into 4. Repeat the process for the other half of the mixture.",
+      "Fry/Griddle using the oil for approx 2 minutes or until crispy brown on each side. Serve warm."
+    ],
+    "tips": [],
+    "tags": [
+      "appetizers"
     ]
   }
 ]
