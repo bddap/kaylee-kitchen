@@ -1,3 +1,4 @@
 site:
 	mkdir -p docs
-	./make.py > docs/index.html
+	rm docs/*.html
+	./make.py

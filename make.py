@@ -51,8 +51,8 @@ def render_recipe(recipe):
             [
                 div("title", recipe["title"]),
                 div("author", "From the kitchen of " + recipe["author"]),
-                div("serves", recipe["serves"]),
-                div("prep_minutes", recipe["prep_minutes"]),
+                div("serves", "serves " + str(recipe["serves"])),
+                div("prep_minutes", "ready in " + str(recipe["prep_minutes"])),
                 ingredients("ingredients", recipe["ingredients"]),
                 render_portion("steps", "Steps", recipe["steps"]),
                 render_portion("notes", "Notes", recipe["notes"]) if False else "",
@@ -61,11 +61,18 @@ def render_recipe(recipe):
     )
 
 
-def head():
-    return '<link rel="stylesheet" type="text/css" href="style.css"></link>'
+def template(content):
+    with open("template.html") as f:
+        return f.read().replace("INCLUDE_BODY", content)
+
+
+def title_to_name(title):
+    return title.replace(" ", "-").lower() + ".html"
 
 
 recipes = json.load(open("recipes.json"))
 
-
-print("\n\n".join([head()] + [render_recipe(recipe) for recipe in recipes]))
+for recipe in recipes:
+    open("docs/" + title_to_name(recipe["title"]), "w").write(
+        template(render_recipe(recipe))
+    )
