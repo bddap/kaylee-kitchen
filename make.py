@@ -49,7 +49,7 @@ def render_recipe(recipe):
         "title",
         "\n".join(
             [
-                div("title", "title"),
+                div("title", recipe["title"]),
                 div("author", "From the kitchen of " + recipe["author"]),
                 div("serves", recipe["serves"]),
                 div("prep_minutes", recipe["prep_minutes"]),
