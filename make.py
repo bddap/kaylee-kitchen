@@ -62,7 +62,7 @@ def render_recipe(recipe):
 
 
 def head():
-    return '<link type="text/css" href="style.css"/>'
+    return '<link rel="stylesheet" type="text/css" href="style.css"></link>'
 
 
 recipes = json.load(open("recipes.json"))
