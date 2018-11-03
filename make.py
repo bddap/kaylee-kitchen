@@ -61,7 +61,11 @@ def render_recipe(recipe):
     )
 
 
+def head():
+    return '<link type="text/css" href="style.css"/>'
+
+
 recipes = json.load(open("recipes.json"))
 
 
-print("\n\n".join([render_recipe(recipe) for recipe in recipes]))
+print("\n\n".join([head()] + [render_recipe(recipe) for recipe in recipes]))
