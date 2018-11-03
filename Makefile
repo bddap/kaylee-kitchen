@@ -1,4 +1,4 @@
 site:
 	mkdir -p docs
-	rm docs/*.html
+	rm -f docs/*.html
 	./make.py
