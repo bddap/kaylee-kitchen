@@ -16,6 +16,10 @@ def p(content):
     return "<p>{}</p>".format(content)
 
 
+def p_class(clas, content):
+    return '<p class="{}">{}</p>'.format(clas, content)
+
+
 def ingredients(id, ing):
     return "\n".join(
         ['<table id="{}">'.format(id)]
@@ -46,11 +50,14 @@ def render_portion(id, title, paragraphs):
 
 def render_recipe(recipe):
     return section(
-        "title",
+        recipe["title"].replace(" ", "-").replace('"', ""),
         "\n".join(
             [
                 div("title", recipe["title"]),
-                div("author", "From the kitchen of " + recipe["author"]),
+                div(
+                    "author",
+                    p("From the kitchen of") + "\n" + p_class("name", recipe["author"]),
+                ),
                 div("serves", "serves " + str(recipe["serves"])),
                 div("prep_minutes", "ready in " + str(recipe["prep_minutes"])),
                 ingredients("ingredients", recipe["ingredients"]),
