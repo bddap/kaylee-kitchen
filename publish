@@ -2,14 +2,21 @@
 
 set -e
 
+<<<<<<< HEAD
+=======
 git add --all
 git stash
 
+>>>>>>> master
 git checkout gh-pages
 rm -fr docs
 git merge master
 make site
 git add --force docs
 git commit -m "$(date)"
+<<<<<<< HEAD
+git push -u origin gh-pages
+=======
 git push
+>>>>>>> master
 git checkout master
