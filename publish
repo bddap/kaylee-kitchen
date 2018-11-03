@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -e
+
+git clean -dx # make sure there are no local changes by omitting -f
+
+git checkout gh-pages
+rm -fr docs
+git merge master
+make site
+git add --force docs
+git commit -m "$(date)"
+git push
+git checkout master
