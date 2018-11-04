@@ -1,7 +1,7 @@
 [{
     "title": "Stephanie's Best Fondue",
     "author": "Stephanie Maciel",
-    "image": "img/stephanies_best_fondue.jpg",
+    "image": "stephanies_best_fondue.jpg",
     "serves": 8,
     "prep_minutes": 30,
     "ingredients": [
@@ -90,7 +90,7 @@
   {
     "title": "Spicy Soft Tofu Soup with Seafood",
     "author": "Dana Dirksen",
-    "image": "",
+    "image": "spicy_soft_tofu_soup_with_seafood.jpg",
     "serves": 3,
     "prep_minutes": 30,
     "ingredients": [
@@ -135,7 +135,7 @@
   {
     "title": "Spicy Korean Fried Chicken",
     "author": "Dana Dirksen",
-    "image": "",
+    "image": "spicy_korean_fried_chicken.jpg",
     "serves": 4,
     "prep_minutes": 20,
     "ingredients": [
@@ -178,7 +178,7 @@
   {
     "title": "Asian Skewers",
     "author": "Dana Dirksen",
-    "image": "",
+    "image": "Asian_skewers.jpg",
     "serves": 0,
     "prep_minutes": 300,
     "ingredients": [
@@ -238,7 +238,7 @@
   {
     "title": "Chinese Spicy Chicken",
     "author": "Dana Dirksen",
-    "image": "",
+    "image": "Chinese_spicy_chicken.jpg",
     "serves": 0,
     "prep_minutes": 0,
     "ingredients": [
@@ -297,7 +297,7 @@
   {
     "title": "Oyster Stew",
     "author": "Dana Dirksen",
-    "image": "",
+    "image": "Oyster_stew.jpg",
     "serves": 0,
     "prep_minutes": 0,
     "ingredients": [
@@ -332,7 +332,7 @@
   {
     "title": "Irish Potato Farls",
     "author": "Dana Dirksen",
-    "image": "",
+    "image": "img/Irish_potato_farls.jpg",
     "serves": 0,
     "prep_minutes": 0,
     "ingredients": [
@@ -354,6 +354,241 @@
     "tips": [],
     "tags": [
       "appetizers"
+    ]
+  },
+  {
+    "title": "Red Velvet Cake",
+    "author": "Dana Dirksen",
+    "image": "red_velvet_cake.jpg",
+    "serves": 0,
+    "prep_minutes": 0,
+    "ingredients": [
+      "Vegetable oil for the pans",
+      "2 1/2 cups all-purpose flour",
+      "1 1/2 cups sugar",
+      "1 teaspoon baking soda",
+      "1 teaspoon fine salt",
+      "1 teaspoon cocoa powder",
+      "1 1/2 cups vegetable oil",
+      "1 cup buttermilk, at room temperature",
+      "2 large eggs, at room temperature",
+      "2 tablespoons red food coloring (1 ounce)",
+      "1 teaspoon white distilled vinegar",
+      "1 teaspoon vanilla extract"
+    ],
+    "steps": [],
+    "tips": [],
+    "tags": [
+      "desert"
+    ]
+  },
+  {
+    "title": "Vanilla Frosting",
+    "author": "Dana Dirksen",
+    "image": "vanilla_frosting.jpg",
+    "serves": 0,
+    "prep_minutes": 0,
+    "ingredients": [
+      "3 Cups powdered sugar",
+      "1 1/2 Tsp Vanilla",
+      "2 TBS Milk",
+      "1/3 cup softened butter",
+      "In a mixing bowl, combine the softened butter with the powdered sugar.",
+      "Mix them together using a mixing spoon or electric mixer set on low speed until they are well blended.2",
+      "Add the vanilla extract and one teaspoon of the milk and mix well.",
+      "Scrape the sides of the bowl often while mixing.3",
+      "Continue to add milk one teaspoon at a time until frosting is the desired consistency.4",
+      "Blend until the icing is smooth and creamy with no lumps.5",
+      "Frost your cake, cupcakes or desert, or refrigerate to use later."
+    ],
+    "steps": [],
+    "tips": [],
+    "tags": [
+      "desert"
+    ]
+  },
+  {
+    "title": "Raspberry Martini",
+    "author": "Dana Dirksen",
+    "image": "raspberry_martini.jpg",
+    "serves": 2,
+    "prep_minutes": 5,
+    "ingredients": [
+      "1 ½ shots vodka",
+      "1 shot triple sec",
+      "1 shot lime juice",
+      "1 scoop raspberry sorbet",
+      "¼ cup cranberry or cran-raspberry juice"
+    ],
+    "steps": [
+      "Place all ingredients into a cocktail shaker and shake until combined.",
+      "Place a scoop of sorbet into glass for garnish"
+    ],
+    "tips": [],
+    "tags": [
+      "Drink",
+      "alcoholic"
+    ]
+  },
+  {
+    "title": "Noodles with Black Bean Sauce",
+    "author": "Dana Dirksen",
+    "image": "noodles_with_black_bean_sauce.jpg",
+    "serves": 3,
+    "prep_minutes": 30,
+    "ingredients": [
+      "wheat noodles",
+      "½ pound pork belly, cut into ½ inch cubes (about 1½ cups’ worth)",
+      "1 cup of Korean radish (or daikon), cut into ½ inch cubes (about 1 cup’s worth)",
+      "1 cup of zucchini, cut into ½ inch cubes",
+      "1 cup of potato, peeled and cut into ½ inch cubes",
+      "1½ cups of onion chunks",
+      "3 Tablespoons of vegetable oil",
+      "¼ cup and 1 Tablespoon of black bean paste",
+      "2 Tablespoons of potato starch powder, combined with ¼ cup water and 1 teaspoon of sugar in a small bowl, set aside",
+      "1 teaspoon of sesame oil",
+      "½ cup cucumber, cut into thin matchsticks for garnish",
+      "Water"
+    ],
+    "steps": [
+      "stir-fry the pork belly in a large, deep wok with 1 Tablespoon of vegetable oil for about 4-5 minutes, until golden brown and crispy.",
+      "Pour out the excess pork fat.",
+      "Add radish and stir fry for 1 minute.",
+      "Add potato, onion, and zucchini and keep stirring for about 3 minutes until the potato looks a little translucent.",
+      "Clear a space in the center of the wok by pushing the ingredients to the edges.",
+      "Add 2 Tablespoons of vegetable oil to the center of the wok, then add ¼ cup of black bean paste and stir it with a wooden spoon for 1 minute to fry it. Then mix everything in the wok and keep stirring.",
+      "Add  2 cups of water to the wok and let it cook with the lid closed for about 10 minutes.",
+      "Open the lid and taste a sample of the radish and potato. If they’re fully cooked, stir in the starch water little by little. Keep stirring until it’s well mixed and thick.",
+      "Add the sesame oil and remove from the heat.",
+      "Serve with noodles (jjajangmyeon) or steamed rice (jjajangbap).",
+      "Garnish with cucumber strips on top of the jjajang sauce and serve it with kimchi or yellow pickled radish."
+    ],
+    "tips": [],
+    "tags": [
+      "entree"
+    ]
+  },
+  {
+    "title": "Kimchi Fried Rice",
+    "author": "Dana Dirksen",
+    "image": "kimchi_fried_rice.jpg",
+    "serves": 3,
+    "prep_minutes": 20,
+    "ingredients": [
+      "3 bowls steamed rice (3 cups)",
+      "1 cup chopped kimchi",
+      "¼ cup kimchi juice",
+      "¼ cup water",
+      "2-3 tablespoons gochujang",
+      "3 teaspoons sesame oil",
+      "1 teaspoon vegetable oil",
+      "1 green onion, chopped",
+      "1 tablespoon roasted sesame seeds",
+      "1 sheet of seaweed, roasted and shredded"
+    ],
+    "steps": [
+      "Heat up a pan. Add the vegetable oil.",
+      "Add the kimchi and stir fry for 1 minute.",
+      "Add rice, kimchi juice, water, and gochujang. Stir all the ingredients together for about 7 minutes with a wooden spoon.",
+      "Add sesame oil and remove from the heat.",
+      "Sprinkle with chopped green onion, roasted gim, and sesame seeds. Serve right away."
+    ],
+    "tips": [],
+    "tags": [
+      "entree",
+      "asian"
+    ]
+  },
+  {
+    "title": "Crab Bisque",
+    "author": "Dana Dirksen",
+    "image": "crab_bisque.jpg",
+    "serves": 4,
+    "prep_minutes": 20,
+    "ingredients": [
+      "Half a cooked crab",
+      "⅓ Celery stalk  & celery leaves",
+      "2 Carrots",
+      "1 Onion",
+      "Spices: Paprika, salt, pepper, garlic salt, old bay seasoning, 1 bay leaf, cloves all to taste",
+      "⅓ cup Heavy Cream",
+      "¾  cup Flour",
+      "1 cup Milk",
+      "Half a stick of Butter",
+      "Pinch of fresh Parsley"
+    ],
+    "steps": [
+      "Remove crab meat and set aside.  Boil the crab shells, half the celery, 1 carrot and half the onion, minced in 2 ⅕ cups of water and 1 can chicken broth for 30 minutes.",
+      "Strain and squeeze the shells and vegetables into the pot.  Remove and set aside.",
+      "Add the crab meat,remaining veggies, spices, parsley, milk and butter, stirring often.",
+      "Once boiling, add flour with a bit of milk.",
+      "Serve hot, with crusty bread, top with dried parsley flakes."
+    ],
+    "tips": [],
+    "tags": [
+      "entree"
+    ]
+  },
+  {
+    "title": "Beef Bulgogi",
+    "author": "Dana Dirksen",
+    "image": "beef_bulgogi.jpg",
+    "serves": 4,
+    "prep_minutes": 60,
+    "ingredients": [
+      "1 pound of beef tenderloin, sliced thinly into pieces ½ inch x 2 inches and ⅛ inch thick",
+      "½ cup of crushed pear",
+      "¼ cup onion purée",
+      "4 cloves of minced garlic",
+      "1 teaspoon minced ginger",
+      "1 chopped green onion",
+      "2 tbsp soy sauce",
+      "2 tbsp brown sugar (or 1 tbsp of brown sugar and 1½ tbs rice syrup)",
+      "a pinch of ground black pepper",
+      "1 tbsp toasted sesame oil",
+      "several thin slices of carrot"
+    ],
+    "steps": [
+      "Mix all the marinade ingredients in a bowl.",
+      "Add the sliced beef and mix well.",
+      "You can grill, pan-fry, or BBQ right after marinating, but it’s best to keep it in the fridge and let it marinate for at least 30 minutes, or overnight for a tougher cut of beef.",
+      "Serve with korean spicy sauce."
+    ],
+    "tips": [],
+    "tags": [
+      "entree",
+      "korean"
+    ]
+  },
+  {
+    "title": "Andrea's Enchiladas",
+    "author": "Andrea Heikkila",
+    "image": "andreas_enchiladas.jpg",
+    "serves": 8,
+    "prep_minutes": 35,
+    "ingredients": [
+      "2 cups chicken breast",
+      "2 cans cream of chicken soup",
+      "1 can of green chilies",
+      "1 Jalapeno",
+      "1 onion",
+      "1 small container of sour cream",
+      "1 cup monterey jack cheese",
+      "Corn tortillas"
+    ],
+    "steps": [
+      "Combine chicken,  1 can cream of chicken soup, green chilies, jalapeno and onion into bowl and mix",
+      "Optional fry the corn tortillas",
+      "Roll the mix into the tortillas",
+      "Combine sour cream and last can cream of chicken into another bowl and place on top of rolled tortillas",
+      "Bake in the oven at 350 for 30 minutes",
+      "Grate cheese onto dish and bake for 5 more minutes.",
+      "Garnish with cilantro"
+    ],
+    "tips": [],
+    "tags": [
+      "entree",
+      "mexican"
     ]
   }
 ]
