@@ -23,7 +23,7 @@ def p_class(clas, content):
 def ingredients(id, ing):
     return "\n".join(
         ['<table id="{}">'.format(id)]
-        + ["<tr><th>" + i + "</th></tr>" for i in ing]
+        + ["<tr><td>" + i + "</td></tr>" for i in ing]
         + ["</table>"]
     )
 
@@ -41,30 +41,36 @@ def section(id, content):
 
 def render_portion(id, title, paragraphs):
     return div(
-        "",
+        id,
         div_class("name-header", title)
         + "\n"
         + "\n".join(p(par) for par in paragraphs),
     )
 
 
+def header(content):
+    return "<header>{}</header>".format(content)
+
+
 def render_recipe(recipe):
-    return section(
-        recipe["title"].replace(" ", "-").replace('"', ""),
-        "\n".join(
-            [
-                div("title", recipe["title"]),
+    return "\n".join(
+        [
+            header(div("title", recipe["title"])),
+            div(
+                "information",
                 div(
                     "author",
                     p("From the kitchen of") + "\n" + p_class("name", recipe["author"]),
-                ),
-                div("serves", "serves " + str(recipe["serves"])),
-                div("prep_minutes", "ready in " + str(recipe["prep_minutes"])),
-                ingredients("ingredients", recipe["ingredients"]),
-                render_portion("steps", "Steps", recipe["steps"]),
-                render_portion("notes", "Notes", recipe["notes"]) if False else "",
-            ]
-        ),
+                )
+                + "\n"
+                + div("serves", "serves " + str(recipe["serves"]))
+                + "\n"
+                + div("prep_minutes", "ready in " + str(recipe["prep_minutes"])),
+            ),
+            ingredients("ingredients", recipe["ingredients"]),
+            render_portion("steps", "Steps", recipe["steps"]),
+            render_portion("notes", "Notes", recipe["notes"]) if False else "",
+        ]
     )
 
 
