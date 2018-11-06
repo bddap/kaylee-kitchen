@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Lato', sans-serif;
-  font-size: 10px;
+  font-size: 3.25vmin;
   color: #CC3333;
 }
 
@@ -20,7 +20,7 @@ header {
   margin-top: 5vh;
   margin-left: 10vw;
   font-family: 'Oswald', sans-serif;
-  font-size: 24px;
+  font-size: 8vmin;
   font-weight: bold;
   text-align: left;
 }
@@ -29,10 +29,6 @@ header {
 #information{
   width: 80vw;
   margin: auto;
-}
-
-#author {
-  width: 25vw;
 }
 
 #author p {
@@ -67,7 +63,7 @@ header {
 }
 
 #ingredients td {
-  font-size: 12px;
+  font-size: 4vmin;
   font-style: normal;
   font-weight: normal;
   text-align: left;
@@ -79,7 +75,7 @@ header {
   margin: 0 auto;
   margin-top: 5vh;
   text-align: center;
-  font-size: 12px;
+  font-size: 4vmin;
   font-style: normal;
   font-weight: lighter;
   text-align: left;
@@ -89,7 +85,7 @@ header {
 .name-header {
   margin-bottom: 5vh;
   font-family: 'Oswald', sans-serif;
-  font-size: 24px;
+  font-size: 8vmin;
   font-weight: bolder;
   color: #CC3333;
 }
