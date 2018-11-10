@@ -5,6 +5,21 @@ import pathlib
 from jinja2 import Template
 
 
+def warn(*a):
+    print("WARNING:", *a)
+
+
+def validate(recipes):
+    images = [recipe["image"] for recipe in recipes]
+    for recipe in recipes:
+        if not pathlib.Path("img").joinpath(recipe["image"]).exists():
+            warn(recipe["title"], "points to a non-existent image.")
+    actual = [p.name for p in pathlib.Path("img").iterdir()]
+    for a in actual:
+        if a not in images:
+            warn("image", a, "is unused.")
+
+
 def title_to_name(title):
     return title.replace(" ", "-").lower() + ".html"
 
@@ -22,6 +37,8 @@ index_template = Template(open("index.template.html").read())
 
 for r in recipes:
     r["name"] = title_to_name(r["title"])
+
+validate(recipes)
 
 open("docs/index.html", "w").write(index_template.render(recipes=recipes))
 
