@@ -1,6 +1,7 @@
 site:
 	mkdir -p docs
 	rm -f docs/*.html
-	./make.py
+	pipenv run ./make.py
 	cp style.css docs
-	cp -r img docs/img
+	mkdir -p docs/img
+	cp img/* docs/img
