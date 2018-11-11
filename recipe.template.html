@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+    <title>CookBook</title>
+  </head>
+  <body>
+
+    <header>
+      <div id="title">{{ recipe.title }}</div>
+      <div id="home-icon">
+        <a href="../docs/index.html"><img src="../docs/icons/home-icon.svg"/></a>
+      </div>
+    </header>
+
+    <img class="recipe-image" src="img/{{ recipe.image }}"/>
+
+    <div id="information">
+      <div id="author">
+      	<p>From the kitchen of</p>
+      	<p class="name">{{ recipe.author }}</p>
+      </div>
+      <div id="serves">
+        serves {{ recipe.serves }}
+      </div>
+      <div id="prep_minutes">
+        ready in {{ recipe.prep_minutes }}
+      </div>
+    </div>
+
+    <table id="ingredients">
+      {% for ingredient in recipe.ingredients %}
+      <tr><td>{{ ingredient }}</td></tr>
+      {% endfor %}
+    </table>
+
+    <div id="steps">
+      <div class="name-header">Steps</div>
+      {% for step in recipe.steps %}
+      <p>{{ step }}</p>
+      {% endfor %}
+    </div>
+
+  </body>
+</html>
