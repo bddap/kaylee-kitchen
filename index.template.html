@@ -1,5 +1,16 @@
-<ul>
-  {% for recipe in recipes %}
-  <li><a href="{{ recipe.name }}">{{ recipe.title }}</a></li>
-  {% endfor %}
-</ul>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+    <title>CookBook</title>
+  </head>
+  <body>
+    <ul>
+      {% for recipe in recipes %}
+      <li><a href="{{ recipe.name }}">{{ recipe.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
