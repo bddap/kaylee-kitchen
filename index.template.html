@@ -7,9 +7,9 @@
     <title>CookBook</title>
   </head>
   <body>
-    <ul>
+    <ul id="recipe-list">
       {% for recipe in recipes %}
-      <li><a href="{{ recipe.name }}">{{ recipe.title }}</a></li>
+      <a href="{{ recipe.name }}"><li><p>{{ recipe.title }}</p></li></a>
       {% endfor %}
     </ul>
   </body>

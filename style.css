@@ -93,3 +93,35 @@ header {
   font-weight: bolder;
   color: #CC3333;
 }
+
+/***********************************/
+/*          Index style            */
+/***********************************/
+
+#recipe-list {
+  width: 80vw;
+  list-style-type: none;
+}
+
+a {
+  width: 50vw;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+}
+
+#recipe-list li {
+  height: 8vh;
+  margin: 2.5vh auto;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: #CC3333;
+}
+
+#recipe-list p {
+  width: 90%;
+  margin: auto;
+  font-weight: bold;
+  color: #FFF;
+}
