@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css"></link>
@@ -9,12 +10,21 @@
   <body>
 
     <header>
-      <div id="title">{{ recipe.title }}</div>
-      <div id="home-icon">
-        <a href="https://bddap.github.io/kaylee-kitchen/index.html"><img src="https://bddap.github.io/kaylee-kitchen/icons/home-icon.svg"/></a>
+      <div id="nav-bar">
+        <!-- <div id="logo">
+          <a href="index.html">
+            <img src="icons/logo-white-no-type.svg"/>
+          </a>
+        </div> -->
+        <div id="home-icon">
+          <a href="https://bddap.github.io/kaylee-kitchen/index.html">
+            <img src="https://bddap.github.io/kaylee-kitchen/icons/home-icon-white.svg"/>
+          </a>
+        </div>
       </div>
     </header>
 
+    <div id="title">{{ recipe.title }}</div>
     <img class="recipe-image" src="img/{{ recipe.image }}"/>
 
     <div id="information">
@@ -41,6 +51,12 @@
       {% for step in recipe.steps %}
       <p>{{ step }}</p>
       {% endfor %}
+    </div>
+
+    <div id="back-to-top">
+      <a href="#nav-bar">
+        <img src="icons/back-to-top-outline-white.svg"/>
+      </a>
     </div>
 
   </body>
