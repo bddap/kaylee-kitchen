@@ -1,4 +1,10 @@
-body {
+/***********************************/
+/*          Body Styling           */
+/***********************************/
+
+body, html {
+  width: 100vw;
+  height: 100%;
   padding: 0;
   margin: 0;
   font-family: 'Lato', sans-serif;
@@ -6,25 +12,53 @@ body {
   color: #CC3333;
 }
 
+/***********************************/
+/*          Nav Bar Styling        */
+/***********************************/
 
 header {
   width: 100vw;
-  height: auto;
-  margin-top: 2.5vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  height: 12vh;
   padding: 0;
+  margin: 0;
 }
 
+#nav-bar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* position: static;
+  left: 0;
+  top: 0; */
+  justify-content: flex-end;
+  background-color: #CC3333;
+}
+
+#home-icon {
+  width: 8vw;
+  height: 8vw;
+  margin: auto 0;
+  margin-right: 8vw;
+}
+
+#home-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+/***********************************/
+/*          Recipe Styling         */
+/***********************************/
+
 #title {
-  width: 65vw;
+  width: 80vw;
   padding: 0;
   margin-left: 10vw;
+  margin-top: 2.5vh;
   font-family: 'Oswald', sans-serif;
   font-size: 8vmin;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
 }
 
 #home-icon {
@@ -33,20 +67,17 @@ header {
   margin-right: 10vw;
 }
 
-#home-icon img {
-  width: 100%;
-  height: 100%;
-}
-
 .recipe-image {
   width: 100vw;
   height: 42vh;
+  padding: 0;
   margin-top: 2.5vh;
   display: inline;
 }
 
 #information {
   width: 100vw;
+  padding: 0;
   margin-top: 2.5vh;
   margin-left: 10vw;
 }
@@ -69,17 +100,20 @@ header {
 
 #serves {
   width: 100vw;
+  padding: 0;
   margin-top: 2vh;
   font-weight: lighter;
 }
 
 #prep_minutes {
+  padding: 0;
   font-weight: lighter;
 }
 
 #ingredients {
   width: 80vw;
   height: auto;
+  padding: 0;
   margin: 0 auto;
   margin-top: 2.5vh;
   font-style: normal;
@@ -88,6 +122,7 @@ header {
 }
 
 #ingredients td {
+  padding: 0;
   font-size: 3.5vmin;
   font-style: normal;
   font-weight: normal;
@@ -97,6 +132,7 @@ header {
 
 #steps {
   width: 80vw;
+  padding: 0;
   margin: 0 auto;
   margin-top: 2.5vh;
   text-align: center;
@@ -108,7 +144,7 @@ header {
 }
 
 .name-header {
-  margin-bottom: 5vh;
+  margin-bottom: 2.5vh;
   font-family: 'Oswald', sans-serif;
   font-size: 8vmin;
   font-weight: bolder;
@@ -116,7 +152,7 @@ header {
 }
 
 /***********************************/
-/*          Index style            */
+/*          Index Styling          */
 /***********************************/
 
 #recipe-list {
@@ -136,7 +172,7 @@ a {
   margin: 2.5vh auto;
   display: flex;
   align-items: center;
-  border-radius: 1rem;
+  border-radius: .5rem;
   background-color: #CC3333;
 }
 
@@ -145,4 +181,19 @@ a {
   margin: auto;
   font-weight: bold;
   color: #FFF;
+}
+
+/***********************************/
+/*       Back To Top Styling       */
+/***********************************/
+
+#back-to-top {
+  width: 6vw;
+  height: 6vw;
+  padding: 0;
+  position: fixed;
+  right: 2vw;
+  top: 96.25vh;
+  border-radius: 50%;
+  background-color: #CC3333;
 }

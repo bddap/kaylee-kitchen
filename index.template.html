@@ -7,10 +7,33 @@
     <title>CookBook</title>
   </head>
   <body>
+
+    <header>
+      <div id="nav-bar">
+        <!-- <div id="logo">
+          <a href="index.html">
+            <img src="icons/logo-white-no-type.svg"/>
+          </a>
+        </div> -->
+        <div id="home-icon">
+          <a href="https://bddap.github.io/kaylee-kitchen/index.html">
+            <img src="https://bddap.github.io/kaylee-kitchen/icons/home-icon-white.svg"/>
+          </a>
+        </div>
+      </div>
+    </header>
+
     <ul id="recipe-list">
       {% for recipe in recipes %}
       <a href="{{ recipe.name }}"><li><p>{{ recipe.title }}</p></li></a>
       {% endfor %}
     </ul>
+
+    <div id="back-to-top">
+      <a href="#nav-bar">
+        <img src="icons/back-to-top-outline-white.svg"/>
+      </a>
+    </div>
+
   </body>
 </html>
