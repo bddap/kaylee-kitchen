@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css"></link>
@@ -7,14 +8,36 @@
     <title>CookBook</title>
   </head>
   <body>
-    <header><div id="title">Beef Bulgogi</div></header>
-    <img src="img/beef_bulgogi.jpg"/>
+
+    <header>
+      <div id="nav-bar">
+        <!-- <div id="logo">
+          <a href="index.html">
+            <img src="icons/logo-white-no-type.svg"/>
+          </a>
+        </div> -->
+        <div id="home-icon">
+          <a href="https://bddap.github.io/kaylee-kitchen/index.html">
+            <img src="https://bddap.github.io/kaylee-kitchen/icons/home-icon-white.svg"/>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div id="title">Beef Bulgogi</div>
+    <img class="recipe-image" src="img/beef_bulgogi.jpg"/>
+
     <div id="information">
       <div id="author">
-	<p>From the kitchen of</p>
-	<p class="name">Dana Dirksen</p></div>
-      <div id="serves">serves 4</div>
-      <div id="prep_minutes">ready in 60</div>
+      	<p>From the kitchen of</p>
+      	<p class="name">Dana Dirksen</p>
+      </div>
+      <div id="serves">
+        serves 4
+      </div>
+      <div id="prep_minutes">
+        ready in 60
+      </div>
     </div>
 
     <table id="ingredients">
@@ -42,7 +65,7 @@
       <tr><td>several thin slices of carrot</td></tr>
       
     </table>
-    
+
     <div id="steps">
       <div class="name-header">Steps</div>
       
@@ -55,5 +78,12 @@
       <p>Serve with korean spicy sauce.</p>
       
     </div>
+
+    <div id="back-to-top">
+      <a href="#nav-bar">
+        <img src="https://bddap.github.io/kaylee-kitchen/icons/back-to-top-outline-white.svg"/>
+      </a>
+    </div>
+
   </body>
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css"></link>
@@ -7,14 +8,36 @@
     <title>CookBook</title>
   </head>
   <body>
-    <header><div id="title">Andrea's Enchiladas</div></header>
-    <img src="img/andreas_enchiladas.jpg"/>
+
+    <header>
+      <div id="nav-bar">
+        <!-- <div id="logo">
+          <a href="index.html">
+            <img src="icons/logo-white-no-type.svg"/>
+          </a>
+        </div> -->
+        <div id="home-icon">
+          <a href="https://bddap.github.io/kaylee-kitchen/index.html">
+            <img src="https://bddap.github.io/kaylee-kitchen/icons/home-icon-white.svg"/>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div id="title">Andrea's Enchiladas</div>
+    <img class="recipe-image" src="img/andreas_enchiladas.jpg"/>
+
     <div id="information">
       <div id="author">
-	<p>From the kitchen of</p>
-	<p class="name">Andrea Heikkila</p></div>
-      <div id="serves">serves 8</div>
-      <div id="prep_minutes">ready in 35</div>
+      	<p>From the kitchen of</p>
+      	<p class="name">Andrea Heikkila</p>
+      </div>
+      <div id="serves">
+        serves 8
+      </div>
+      <div id="prep_minutes">
+        ready in 35
+      </div>
     </div>
 
     <table id="ingredients">
@@ -36,7 +59,7 @@
       <tr><td>Corn tortillas</td></tr>
       
     </table>
-    
+
     <div id="steps">
       <div class="name-header">Steps</div>
       
@@ -55,5 +78,12 @@
       <p>Garnish with cilantro</p>
       
     </div>
+
+    <div id="back-to-top">
+      <a href="#nav-bar">
+        <img src="https://bddap.github.io/kaylee-kitchen/icons/back-to-top-outline-white.svg"/>
+      </a>
+    </div>
+
   </body>
 </html>

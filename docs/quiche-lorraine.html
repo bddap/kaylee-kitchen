@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css"></link>
@@ -7,14 +8,36 @@
     <title>CookBook</title>
   </head>
   <body>
-    <header><div id="title">Quiche Lorraine</div></header>
-    <img src="img/Quiche Lorraine.png"/>
+
+    <header>
+      <div id="nav-bar">
+        <!-- <div id="logo">
+          <a href="index.html">
+            <img src="icons/logo-white-no-type.svg"/>
+          </a>
+        </div> -->
+        <div id="home-icon">
+          <a href="https://bddap.github.io/kaylee-kitchen/index.html">
+            <img src="https://bddap.github.io/kaylee-kitchen/icons/home-icon-white.svg"/>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div id="title">Quiche Lorraine</div>
+    <img class="recipe-image" src="img/Quiche Lorraine.png"/>
+
     <div id="information">
       <div id="author">
-	<p>From the kitchen of</p>
-	<p class="name">Dana Dirksen</p></div>
-      <div id="serves">serves </div>
-      <div id="prep_minutes">ready in </div>
+      	<p>From the kitchen of</p>
+      	<p class="name">Dana Dirksen</p>
+      </div>
+      <div id="serves">
+        serves 
+      </div>
+      <div id="prep_minutes">
+        ready in 
+      </div>
     </div>
 
     <table id="ingredients">
@@ -34,7 +57,7 @@
       <tr><td>2 cups grated cheese (your favorite kind, Lorraine, Swiss cheese)</td></tr>
       
     </table>
-    
+
     <div id="steps">
       <div class="name-header">Steps</div>
       
@@ -49,5 +72,12 @@
       <p>Serve warm, at room temperature, or cold. Makes 8 servings.</p>
       
     </div>
+
+    <div id="back-to-top">
+      <a href="#nav-bar">
+        <img src="https://bddap.github.io/kaylee-kitchen/icons/back-to-top-outline-white.svg"/>
+      </a>
+    </div>
+
   </body>
 </html>
